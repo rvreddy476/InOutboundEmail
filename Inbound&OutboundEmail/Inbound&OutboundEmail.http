@@ -1,0 +1,6 @@
+@Inbound_OutboundEmail_HostAddress = http://localhost:5151
+
+GET {{Inbound_OutboundEmail_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MailRequest>
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-secondary bg-gradient m-lg-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>Outgoing Email List</h3>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <table class="table table-bordered table-striped" id="inboundid">
+            <thead>
+                <tr>
+                    <th>
+                        Email Id
+                    </th>
+                    <th>
+                        To Name
+                    </th>
+                    <th>
+                        Subject
+                    </th>
+                    <th>
+                        Body
+                    </th>
+                   
+                    <th>
+                    Attachment Name
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>@item.ToEmail</td>
+                        <td>@item.ToName</td>
+                        <td>
+                            @item.Subject
+                        </td>
+                        <td>
+                            @item.Body
+                        </td>
+                        <td>
+                            @item.AttachmentName
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('#inboundid').DataTable();
+    });
+</script>

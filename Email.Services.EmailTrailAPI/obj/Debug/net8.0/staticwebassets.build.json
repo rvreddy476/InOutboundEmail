@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DS43utLkh0WWoJ66NCuww1pmSB2qYNDnZSsUYD3ygjs=",
+  "Source": "Email.Services.EmailTrailAPI",
+  "BasePath": "_content/Email.Services.EmailTrailAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

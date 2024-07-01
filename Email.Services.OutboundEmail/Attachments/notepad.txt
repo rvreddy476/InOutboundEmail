@@ -1,0 +1,42 @@
+application add storedprocedure - check application field & how to work
+
+add this application & application buket
+
+
+Application field :
+int studentId,
+string Firstname,
+string Surname,
+string Address1, 
+string Address2,
+string CountryOfBirth,
+string Nationality,
+string PPS,
+string gender,
+string DOB,
+string Email, 
+string ModifiedBy,
+string AddressCountry,
+string Eligibility,
+string EligibilityOther,
+string eircode,
+string Mobile,
+string SchoolLeavingYear
+
+
+string Course,
+string Course2,
+string Course3,
+ // parent 1 mobile
+string City, // parent 1 city
+string AddressCounty, // parent 1 county
+ // parent 1 country
+string password, // applicant password
+string ApplicationMode,
+string hdnBlanPPSFlag,
+bool IsPayment,
+string HigestEducation,
+bool submitflag, 
+string user,Terms,DOB,
+string ApplicationFormPayment,
+int ppscnt,string hdnPPSFlag,

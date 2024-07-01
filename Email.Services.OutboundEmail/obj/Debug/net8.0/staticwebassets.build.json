@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "byHBfdWBGKJ/lFqnAzWKIoN+3DcjIcqSG1BKKa3/mO0=",
+  "Source": "Email.Services.OutboundEmail",
+  "BasePath": "_content/Email.Services.OutboundEmail",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Email.Services.OutboundEmail\\wwwroot",
+      "Source": "Email.Services.OutboundEmail",
+      "ContentRoot": "D:\\Inbound&OutboundEmail\\Email.Services.OutboundEmail\\wwwroot\\",
+      "BasePath": "_content/Email.Services.OutboundEmail",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Inbound&OutboundEmail\\Email.Services.OutboundEmail\\wwwroot\\AttachmentFile\\Archirecture_services.docx",
+      "SourceId": "Email.Services.OutboundEmail",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Inbound&OutboundEmail\\Email.Services.OutboundEmail\\wwwroot\\",
+      "BasePath": "_content/Email.Services.OutboundEmail",
+      "RelativePath": "AttachmentFile/Archirecture_services.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AttachmentFile\\Archirecture_services.docx"
+    }
+  ]
+}

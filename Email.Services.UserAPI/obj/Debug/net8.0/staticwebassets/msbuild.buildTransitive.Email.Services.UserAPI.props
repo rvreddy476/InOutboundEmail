@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Email.Services.UserAPI.props" />
+</Project>

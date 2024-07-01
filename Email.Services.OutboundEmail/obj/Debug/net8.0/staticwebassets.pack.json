@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Inbound&OutboundEmail\\Email.Services.OutboundEmail\\wwwroot\\AttachmentFile\\Archirecture_services.docx",
+      "PackagePath": "staticwebassets\\AttachmentFile\\Archirecture_services.docx"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Email.Services.OutboundEmail.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Email.Services.OutboundEmail.props",
+      "PackagePath": "build\\Email.Services.OutboundEmail.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Email.Services.OutboundEmail.props",
+      "PackagePath": "buildMultiTargeting\\Email.Services.OutboundEmail.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Email.Services.OutboundEmail.props",
+      "PackagePath": "buildTransitive\\Email.Services.OutboundEmail.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,13 @@
+2024-04-30 12:57:34.186 +05:30 [INF] Now listening on: https://localhost:7078
+2024-04-30 12:57:34.312 +05:30 [INF] Now listening on: http://localhost:5106
+2024-04-30 12:57:34.321 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-30 12:57:34.324 +05:30 [INF] Hosting environment: Development
+2024-04-30 12:57:34.329 +05:30 [INF] Content root path: C:\Users\Trupti.Divekar\Desktop\Inbound&OutboundEmail\Email.Services.OutboundEmail
+2024-04-30 12:57:36.237 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/index.html - null null
+2024-04-30 12:57:36.980 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/index.html - 200 null text/html;charset=utf-8 745.2819ms
+2024-04-30 12:57:37.013 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-30 12:57:37.039 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7078/_vs/browserLink - null null
+2024-04-30 12:57:37.039 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 26.157ms
+2024-04-30 12:57:37.086 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.4098ms
+2024-04-30 12:57:37.442 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - null null
+2024-04-30 12:57:37.822 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 379.2693ms
