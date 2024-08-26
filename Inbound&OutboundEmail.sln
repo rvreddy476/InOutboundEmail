@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InboundOutbound.web", "Inbo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Email.Services.InboundEmailAPI", "Email.Services.InboundEmailAPI\Email.Services.InboundEmailAPI.csproj", "{0ABE79EB-DB41-4A8E-B8DE-69E2F1F0102D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email.Services.EmailTrailAPI", "Email.Services.EmailTrailAPI\Email.Services.EmailTrailAPI.csproj", "{BC59430F-7473-4917-B6F7-4618BB716BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Email.Services.EmailTrailAPI", "Email.Services.EmailTrailAPI\Email.Services.EmailTrailAPI.csproj", "{BC59430F-7473-4917-B6F7-4618BB716BCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestCases", "TestCases", "{122CC476-E1C1-4BF2-A7DB-9D2D2A888E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InBoundOutBoundTestCases", "InBoundOutBoundTestCases\InBoundOutBoundTestCases.csproj", "{61F8A884-0DD4-4FE7-9FC0-FBB0F16042EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,10 @@ Global
 		{BC59430F-7473-4917-B6F7-4618BB716BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC59430F-7473-4917-B6F7-4618BB716BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC59430F-7473-4917-B6F7-4618BB716BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F8A884-0DD4-4FE7-9FC0-FBB0F16042EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F8A884-0DD4-4FE7-9FC0-FBB0F16042EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F8A884-0DD4-4FE7-9FC0-FBB0F16042EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F8A884-0DD4-4FE7-9FC0-FBB0F16042EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{D485A88E-8CFC-430C-B687-0D4480B462F9} = {5DCEBF86-AF2B-4BE6-A662-5DA732E94C33}
 		{0ABE79EB-DB41-4A8E-B8DE-69E2F1F0102D} = {635F0CDA-CD51-4A0F-AE78-066ED9E5C38B}
 		{BC59430F-7473-4917-B6F7-4618BB716BCC} = {635F0CDA-CD51-4A0F-AE78-066ED9E5C38B}
+		{61F8A884-0DD4-4FE7-9FC0-FBB0F16042EE} = {122CC476-E1C1-4BF2-A7DB-9D2D2A888E0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE7958E2-677F-458C-B692-3E54DD225AAA}

@@ -18,13 +18,12 @@ namespace Email.Services.EmailTrailAPI.Controllers
         private readonly IEmailTrailService _emailTrailService;
         private ResponseDto _response;
         private readonly AppDbContext _dbContext;
-        public EmailTrailController(AppDbContext db, ILogger<EmailTrailController> logger, IMapper mapper, IEmailTrailService emailTrailService)
+        public EmailTrailController(ILogger<EmailTrailController> logger, IMapper mapper, IEmailTrailService emailTrailService)
         {
             _logger = logger;
             _mapper = mapper;
             _emailTrailService = emailTrailService;
-            _response = new ResponseDto();
-            _dbContext = db;
+            _response = new ResponseDto();           
         }
 
         /// <summary>

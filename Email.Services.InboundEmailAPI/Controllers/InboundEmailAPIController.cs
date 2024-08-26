@@ -24,15 +24,14 @@ namespace Email.Services.InboundEmailAPI.Controllers
         private readonly ILogger<InboundEmailAPIController> _logger;
         private readonly AppDbContext _dbContext;
         private ResponseDto _response;
-        private readonly IRabbitMQProcedure _rabbitMQ;
-        public InboundEmailAPIController(AppDbContext db, IRabbitMQProcedure rabbitMQ, IInboundEmailService inboundEmailServices, IMapper mapper, ILogger<InboundEmailAPIController> logger)
+       
+        public InboundEmailAPIController(AppDbContext db, IInboundEmailService inboundEmailServices, IMapper mapper, ILogger<InboundEmailAPIController> logger)
         {
             _inboundEmailServices = inboundEmailServices;
             _mapper = mapper;
             _logger = logger;
             _dbContext = db;
-            _response = new ResponseDto();
-            _rabbitMQ = rabbitMQ;
+            _response = new ResponseDto();            
         }
         /// <summary>
         /// Receives inbound emails.

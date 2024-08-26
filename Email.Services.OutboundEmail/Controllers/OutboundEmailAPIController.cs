@@ -25,14 +25,14 @@ namespace Email.Services.OutboundEmail.Controllers
         /// <summary>
         /// Initializes a new instance of the OutboundEmailServicesController class.
         /// </summary>
-        public OutboundEmailAPIController(IOutboundEmailService mailService,IRabbitMQProcedure rabbitMQ, AppDbContext dbContext, ILogger<OutboundEmailAPIController> logger, IMapper mapper)
+        public OutboundEmailAPIController(IOutboundEmailService mailService,AppDbContext dbContext, ILogger<OutboundEmailAPIController> logger, IMapper mapper)
         {
             _mailService = mailService;
             _logger = logger;
             _mapper = mapper;
             _response = new ResponseDto();
             _dbContext = dbContext;
-            _rabbitMQ = rabbitMQ;
+            
         }
         [HttpGet]
         public object Get()
